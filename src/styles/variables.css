@@ -1,0 +1,14 @@
+:root {
+  --color-dark: #21070f;
+  --color-dark-deep: #0f0307;
+  --color-light: #fffdfc;
+  --color-wine: #7b1734;
+  --color-wine-deep: #4f0d22;
+  --color-wine-soft: #a84a68;
+  --color-accent: #7b1734;
+  --color-gold: #a84a68;
+  --color-text-soft: rgba(255, 255, 255, 0.76);
+
+  --font-title: "Cormorant Garamond", serif;
+  --font-body: "Montserrat", sans-serif;
+}
