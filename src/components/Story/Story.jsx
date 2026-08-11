@@ -6,7 +6,7 @@ const moments = [
   {
     label: "El comienzo",
     title: "Nuestra primera foto juntos",
-    text: "Aquí fue nuestra primera fotografía juntos como novios, sabiendo que con el paso del tiempo nos ibamos a enamorar con una gran locura de mi maravillosa novia. Ahora daremos un gran paso en nuestras vidas.",
+    text: "Aquí fue nuestra primera fotografía juntos como novios, sabiendo que con el paso del tiempo nos ibamos a enamorar con una gran locura. Ahora daremos un gran paso en nuestras vidas.",
     image: "/images/inicio-historia.jpeg",
   },
   {
