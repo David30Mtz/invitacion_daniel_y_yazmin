@@ -45,9 +45,9 @@ function Envelope({ onFinish }) {
               opacity: { delay: 2.18, duration: 0.35 },
             }}
           >
-            <p>Daniel</p>
-            <span>&</span>
             <p>Yazmín</p>
+            <span>&</span>
+            <p>Daniel</p>
             <div className="envelope__letter-line" />
             <small>17 · octubre · 2026</small>
           </motion.div>
@@ -72,7 +72,7 @@ function Envelope({ onFinish }) {
             animate={{ scale: [1, 1.1, 0], opacity: [1, 1, 0], rotate: [0, -4, 4, 0] }}
             transition={{ delay: 1.05, duration: 0.7, ease: "easeInOut" }}
           >
-            D&Y
+            Y&D
           </motion.div>
         </motion.div>
 

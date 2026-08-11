@@ -33,9 +33,9 @@ function Intro({ onOpen }) {
         <p className="intro__eyebrow">Tenemos algo especial que compartir contigo</p>
 
         <h1 className="intro__title">
-          Daniel
-          <span>&</span>
           Yazmín
+          <span>&</span>
+          Daniel
         </h1>
 
         <div className="intro__line" />

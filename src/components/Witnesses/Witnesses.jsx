@@ -2,7 +2,7 @@ import { motion } from "motion/react"
 import { HeartHandshake } from "lucide-react"
 import "./Witnesses.css"
 
-const witnesses = ["José Antonio Ledesma Guerrero", "Rosario Torres Rios"]
+const witnesses = [ "Rosario Torres Rios", "José Antonio Ledesma Guerrero"]
 
 function Witnesses() {
   return (

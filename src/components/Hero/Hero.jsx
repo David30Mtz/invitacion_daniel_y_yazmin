@@ -31,9 +31,9 @@ function Hero() {
           animate={{ opacity: 1, letterSpacing: "0.08rem" }}
           transition={{ duration: 1.5, delay: 0.8 }}
         >
-          Daniel
-          <span>&</span>
           Yazmín
+          <span>&</span>
+          Daniel
         </motion.h1>
 
         <motion.div
