@@ -56,7 +56,7 @@ function Hero() {
         </motion.p>
 
         <motion.p className="hero__full-names" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.75 }}>
-          Daniel Ledesma Guerrero · Yazmín Torres Rios
+          Yazmín Torres Rios · Daniel Ledesma Guerrero 
         </motion.p>
 
         <motion.div className="hero__event" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.9 }}>
