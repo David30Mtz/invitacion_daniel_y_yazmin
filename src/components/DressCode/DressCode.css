@@ -1,0 +1,230 @@
+.dress-code {
+  position: relative;
+  padding: clamp(90px, 12vw, 150px) 24px;
+  overflow: hidden;
+  color: #4b1824;
+
+  background:
+    radial-gradient(
+      circle at 15% 15%,
+      rgba(110, 20, 45, 0.08),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 85% 80%,
+      rgba(110, 20, 45, 0.06),
+      transparent 30%
+    ),
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #fffafa
+    );
+}
+
+.dress-code__decoration {
+  position: absolute;
+  border: 1px solid rgba(110, 20, 45, 0.12);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.dress-code__decoration--one {
+  top: -100px;
+  left: -100px;
+  width: 280px;
+  height: 280px;
+}
+
+.dress-code__decoration--two {
+  right: -120px;
+  bottom: -120px;
+  width: 330px;
+  height: 330px;
+}
+
+.dress-code__content {
+  position: relative;
+  z-index: 2;
+  width: min(820px, 100%);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dress-code__icon {
+  width: 62px;
+  height: 62px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 22px;
+
+  color: #741d35;
+  border: 1px solid rgba(116, 29, 53, 0.25);
+  border-radius: 50%;
+
+  background: rgba(116, 29, 53, 0.04);
+}
+
+.dress-code__eyebrow {
+  margin-bottom: 14px;
+  color: #741d35;
+  font-size: 0.67rem;
+  letter-spacing: 0.24rem;
+  text-transform: uppercase;
+}
+
+.dress-code h2 {
+  margin: 0;
+  color: #3d1420;
+  font-family: var(--font-title);
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  font-weight: 400;
+  line-height: 0.95;
+}
+
+.dress-code__divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  margin: 28px 0;
+
+  color: #741d35;
+}
+
+.dress-code__divider span {
+  width: 65px;
+  height: 1px;
+  background: rgba(116, 29, 53, 0.35);
+}
+
+.dress-code__description {
+  max-width: 650px;
+  margin: 0 auto;
+
+  color: #765d64;
+  font-family: var(--font-title);
+  font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+  line-height: 1.65;
+}
+
+.dress-code__rules {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+
+  margin-top: 55px;
+}
+
+.dress-code__card {
+  padding: 38px 28px;
+
+  border: 1px solid rgba(116, 29, 53, 0.12);
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.8);
+
+  box-shadow:
+    0 25px 60px rgba(83, 22, 40, 0.08),
+    0 4px 15px rgba(83, 22, 40, 0.04);
+
+  backdrop-filter: blur(12px);
+}
+
+.dress-code__card-label {
+  color: #97707c;
+  font-size: 0.65rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.dress-code__card h3 {
+  margin: 8px 0 25px;
+
+  color: #54182a;
+  font-family: var(--font-title);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.dress-code__colors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+
+.dress-code__colors--center {
+  justify-content: center;
+}
+
+.dress-code__color {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  color: #70565e;
+  font-size: 0.78rem;
+}
+
+.dress-code__swatch {
+  width: 46px;
+  height: 46px;
+
+  display: block;
+
+  border-radius: 50%;
+
+  box-shadow:
+    0 6px 18px rgba(0, 0, 0, 0.12),
+    inset 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.dress-code__swatch--white {
+  background: #ffffff;
+  border: 1px solid #ddd;
+}
+
+.dress-code__swatch--red {
+  background: #b82032;
+}
+
+.dress-code__swatch--wine {
+  background: #6f1832;
+}
+
+.dress-code__note {
+  margin-top: 40px;
+
+  color: #9a7a83;
+  font-size: 0.76rem;
+  font-style: italic;
+  letter-spacing: 0.02rem;
+}
+
+@media (max-width: 650px) {
+  .dress-code {
+    padding-inline: 18px;
+  }
+
+  .dress-code__rules {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 42px;
+  }
+
+  .dress-code__card {
+    padding: 32px 20px;
+  }
+
+  .dress-code__description {
+    font-size: 1.1rem;
+  }
+
+  .dress-code__swatch {
+    width: 42px;
+    height: 42px;
+  }
+}

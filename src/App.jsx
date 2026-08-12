@@ -11,6 +11,7 @@ import Gallery from "./components/Gallery/Gallery"
 import Witnesses from "./components/Witnesses/Witnesses"
 import Countdown from "./components/Countdown/Countdown"
 import EventInfo from "./components/EventInfo/EventInfo"
+import DressCode from "./components/DressCode/DressCode"
 
 import music from "./assets/audio/musica.mp3"
 
@@ -52,6 +53,7 @@ function App() {
             <Gallery />
             <Witnesses />
             <Countdown />
+             <DressCode />
             <EventInfo />
           </main>
         )}
